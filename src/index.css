@@ -2229,11 +2229,60 @@
       letter-spacing: -.015em;
     }
 
-    .cta-btns {
-      display: flex;
-      gap: 14px;
-      justify-content: center;
-      flex-wrap: wrap;
+    .cta-form {
+      max-width: 600px;
+      margin: 40px auto 0;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form-grid input,
+    .form-grid select {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-size: 15px;
+      color: var(--od);
+      outline: none;
+      transition: all 0.2s ease;
+      width: 100%;
+      font-family: var(--sf);
+    }
+
+    .form-grid input::placeholder {
+      color: var(--od2);
+    }
+
+    .form-grid input:focus,
+    .form-grid select:focus {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: var(--blu);
+      box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.2);
+    }
+
+    .form-grid select {
+      appearance: none;
+      color: var(--od2);
+    }
+
+    .form-grid select:valid {
+      color: var(--od);
+    }
+
+    .form-grid select option {
+      background: #111118;
+      color: var(--od);
+    }
+
+    @media (max-width: 640px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* ═══════════════════════════════════════════
@@ -2246,8 +2295,10 @@
     }
 
     .ft {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
       gap: 44px;
       padding-bottom: 52px;
       border-bottom: 1px solid var(--bd);
