@@ -28,8 +28,9 @@ export default async function handler(req, res) {
 
   try {
     const data = await resend.emails.send({
-      from: 'GlobalStar Web <info@globalstarcourier.com>', // Resend permite este remitente de prueba por defecto
-      to: 'animaskazo@gmail.com', // Aquí llega el correo con el prospecto
+      from: 'GlobalStar Web <globalstartcourier@digital-solutions.work>', // Resend permite este remitente de prueba por defecto
+      to: 'globalstarcourier2025@gmail.com',
+      cc: 'animaskazo@gmail.com', // Aquí llega el correo con el prospecto
       subject: `🚀 Nuevo Prospecto Web: ${empresa}`,
       html: `
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding: 20px; color: #111;">
