@@ -8,7 +8,7 @@ export default function Navbar() {
       </a>
       <div className="nav-right">
         <a href="#" className="nav-ghost">Iniciar sesión</a>
-        <a href="#precios" className="nav-cta">Contactar a ventas</a>
+        <a href="#CTA" className="nav-cta">Contactar a ventas</a>
       </div>
     </nav>
   );
