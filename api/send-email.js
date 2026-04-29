@@ -1,12 +1,16 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export default async function handler(req, res) {
   // Configurar CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (!process.env.RESEND_API_KEY) {
+    return res.status(500).json({ error: 'La variable de entorno RESEND_API_KEY no está configurada en Vercel.' });
+  }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
