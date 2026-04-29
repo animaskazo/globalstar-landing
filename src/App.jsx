@@ -45,11 +45,8 @@ function App() {
       <EntregaSameDay />
       <Tracking />
       <Notificaciones />
-      <Etiquetas />
-      <Dashboard />
       <StatsBand />
       <Contingencia />
-      <Pricing />
       <Testimonials />
       <FAQ />
       <CTA />

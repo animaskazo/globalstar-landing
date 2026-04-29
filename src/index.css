@@ -2205,7 +2205,7 @@
     }
 
     .cta-h2 {
-      font-size: clamp(40px, 5.5vw, 80px);
+      font-size: clamp(40px, 5.5vw, 64px);
       font-weight: 700;
       letter-spacing: -.04em;
       line-height: 1.06;

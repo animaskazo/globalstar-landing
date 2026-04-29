@@ -14,7 +14,7 @@ export default function Notificaciones() {
             <div className="bl-row">
               <div className="dot dot-a"></div>
               <div>
-                <h4>WhatsApp de mañana: "Tu pedido fue retirado"</h4>
+                <h4>Email de mañana: "Tu pedido fue retirado"</h4>
                 <p>Al dejar tu bodega, tu cliente recibe el primer mensaje de confirmación con el link de tracking y el
                   horario estimado de entrega.</p>
               </div>
@@ -22,7 +22,7 @@ export default function Notificaciones() {
             <div className="bl-row">
               <div className="dot dot-a"></div>
               <div>
-                <h4>WhatsApp de tarde: "El conductor está cerca"</h4>
+                <h4>Email de tarde: "El conductor está cerca"</h4>
                 <p>Cuando el conductor está a menos de 2 km, el destinatario recibe la alerta para prepararse. Elimina los
                   intentos fallidos por ausencia.</p>
               </div>
@@ -35,21 +35,14 @@ export default function Notificaciones() {
                   evidencia real en sus manos.</p>
               </div>
             </div>
-            <div className="bl-row">
-              <div className="dot dot-a"></div>
-              <div>
-                <h4>Mensajes a nombre de tu tienda</h4>
-                <p>Configura el remitente como el nombre de tu tienda. Tu cliente recibe "Tu pedido de MiTienda llega hoy"
-                  — no "GlobalStar".</p>
-              </div>
-            </div>
+
           </div>
         </div>
         <div className="reveal d1">
           <div className="notif-stack">
             <div className="notif-card">
               <div className="notif-top">
-                <div className="notif-ch" style={{ color: '#25d366' }}>💬 WhatsApp · 08:35 AM</div>
+                <div className="notif-ch" style={{ color: '#25d366' }}>Email · 08:35 AM</div>
                 <span className="notif-time">Mañana</span>
               </div>
               <div className="notif-body">🌅 Hola <strong>Ana</strong>! Tu pedido de <strong>MiTienda</strong> fue retirado
@@ -59,17 +52,17 @@ export default function Notificaciones() {
             </div>
             <div className="notif-card">
               <div className="notif-top">
-                <div className="notif-ch" style={{ color: '#25d366' }}>💬 WhatsApp · 13:58 PM</div>
+                <div className="notif-ch" style={{ color: '#25d366' }}>Email · 13:58 PM</div>
                 <span className="notif-time">Tarde</span>
               </div>
               <div className="notif-body">🚚 <strong>¡Tu pedido está llegando hoy!</strong> El conductor está a <strong>1.4
-                  km</strong>. Llega aproximadamente en <strong>15 minutos</strong>. Prepárate o deja a alguien en casa.
+                km</strong>. Llega aproximadamente en <strong>15 minutos</strong>. Prepárate o deja a alguien en casa.
               </div>
               <span className="notif-badge nb-g">✓ Leído · apertura inmediata</span>
             </div>
             <div className="notif-card">
               <div className="notif-top">
-                <div className="notif-ch" style={{ color: '#6b7280' }}>📱 SMS · 14:23 PM</div>
+                <div className="notif-ch" style={{ color: '#6b7280' }}>Email · 14:23 PM</div>
                 <span className="notif-time">Confirmación</span>
               </div>
               <div className="notif-body">✅ <strong>¡Entregado hoy!</strong> Tu pedido de MiTienda fue recibido a las 14:21.

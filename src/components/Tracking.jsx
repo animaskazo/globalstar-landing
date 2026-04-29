@@ -6,24 +6,22 @@ export default function Tracking() {
       <div className="split">
         <div className="reveal">
           <div className="ey ey-b">Tracking en tiempo real</div>
-          <h2 className="h2-l ls-tight">Tu cliente ve<br />cada paso <span className="hi-b">del camino.</span></h2>
+          <h2 className="h2-l ls-tight">Dashboard para cada<br /> <span className="hi-b">negocio o tienda.</span></h2>
           <p className="body-l" style={{ marginTop: '14px' }}>Desde que retiramos en tu bodega por la mañana hasta que tocamos el
             timbre del destinatario, cada movimiento está registrado y visible en tiempo real.</p>
           <div className="blist-l">
             <div className="bl-row">
               <div className="dot dot-b"></div>
               <div>
-                <h4>Página de tracking con tu marca, no la nuestra</h4>
-                <p>La URL de seguimiento muestra tu logo y colores. Tus clientes sienten que es tu empresa la que entrega
-                  — porque lo es.</p>
+                <h4>Página de tracking para tus clientes</h4>
+                <p>La URL de seguimiento muestra el estado de tus envíos en tiempo real. Tus clientes no tendran que preguntarte mas por su pedido.</p>
               </div>
             </div>
             <div className="bl-row">
               <div className="dot dot-b"></div>
               <div>
-                <h4>Mapa en vivo del conductor actualizado cada 30 segundos</h4>
-                <p>El destinatario ve la posición exacta del conductor y sabe cuántos minutos faltan. Eliminamos el
-                  "¿cuándo llega?" de raíz.</p>
+                <h4>Etiquetas digitales</h4>
+                <p>Imprime tus etiquetas desde el dashboard e identifica cada paquete con un código único.</p>
               </div>
             </div>
             <div className="bl-row">
@@ -43,11 +41,6 @@ export default function Tracking() {
               </div>
             </div>
           </div>
-          <a href="#precios" className="mlink mlink-b">Ver planes con tracking personalizado 
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-              <path d="M3 8h10M9 4l4 4-4 4" />
-            </svg>
-          </a>
         </div>
         <div className="reveal d2">
           <div className="tw-wrap">

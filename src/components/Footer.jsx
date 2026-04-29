@@ -11,32 +11,15 @@ export default function Footer() {
           <p className="fl-tag">Same day delivery para tiendas online en el Gran Santiago. Retiro AM, entrega PM, siempre.</p>
         </div>
         <div className="fc2">
-          <h5>Servicios</h5>
-          <a href="#">Recolección matutina</a>
-          <a href="#">Same Day Delivery</a>
-          <a href="#">Tracking en vivo</a>
-          <a href="#">Notificaciones WhatsApp</a>
-          <a href="#">Devoluciones</a>
+          <h5>Menú Principal</h5>
+          <a href="#recoleccion">Recolección</a>
+          <a href="#entregas">Entregas seguras</a>
+          <a href="#tracking">Tracking</a>
+          <a href="#notificaciones">Notificaciones</a>
+          <a href="#faq">Preguntas frecuentes</a>
         </div>
         <div className="fc2">
-          <h5>Plataformas</h5>
-          <a href="#">Amazon Flex</a>
-          <a href="#">Falabella</a>
-          <a href="#">Ripley</a>
-          <a href="#">Shopify</a>
-          <a href="#">WooCommerce</a>
-        </div>
-        <div className="fc2">
-          <h5>Recursos</h5>
-          <a href="#">Cómo funciona</a>
-          <a href="#">Cobertura de comunas</a>
-          <a href="#">Centro de ayuda</a>
-          <a href="#">API Docs</a>
-        </div>
-        <div className="fc2">
-          <h5>Empresa</h5>
-          <a href="#">Sobre GlobalStar</a>
-          <a href="#">Conductores</a>
+          <h5>Contacto</h5>
           <a href="mailto:hola@globalstar.cl">hola@globalstar.cl</a>
           <a href="#">Santiago, Chile</a>
         </div>

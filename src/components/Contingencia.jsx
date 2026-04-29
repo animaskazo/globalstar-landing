@@ -21,9 +21,8 @@ export default function Contingencia() {
           <div className="step-card reveal d1">
             <div className="step-n">02</div>
             <div className="step-ico si-b">💬</div>
-            <h4>WhatsApp de reagendamiento inmediato</h4>
-            <p>Tu cliente recibe un mensaje automático con link para elegir una nueva ventana de entrega. El 70% reagenda
-              sin que intervengas.</p>
+            <h4>Email de reagendamiento inmediato</h4>
+            <p>Tu cliente recibe un mensaje automático con las instrucciones para reagendar</p>
           </div>
           <div className="step-card reveal d2">
             <div className="step-n">03</div>
