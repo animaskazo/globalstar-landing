@@ -5,25 +5,15 @@ export default function EntregaSameDay() {
     <section className="sec-d" id="entregas">
       <div className="split rev">
         <div className="reveal">
-          <div className="ey ey-w">Entrega same day</div>
-          <h2 className="h2-d ls-tight">Pedido hoy.<br /><span className="grad2">Entregado hoy.</span></h2>
-          <p className="body-d" style={{ marginTop: '14px' }}>Retiramos por la mañana y entregamos durante el día. Tu cliente
-            recibe su pedido antes de las 8 PM sin pagar extra. Eso es lo que diferencia a tu tienda.</p>
+          <div className="ey ey-w">Entregas seguras</div>
+          <h2 className="h2-d ls-tight">Control total<br /><span className="grad2">Tus envios siempre estarán seguros.</span></h2>
+          <p className="body-d" style={{ marginTop: '14px' }}>Control total de tus entregas desde el primer clic. Tus envios siempre estarán seguros y tus clientes sabrán en que etapa se encuentran.</p>
           <div className="blist-d">
             <div className="bl-row">
               <div className="dot dot-w"></div>
               <div>
-                <h4>Retiro AM → Entrega PM el mismo día</h4>
-                <p>Los pedidos retirados entre las 8 y las 12 se entregan entre las 14 y las 20 horas. Todos dentro del
-                  mismo día calendario.</p>
-              </div>
-            </div>
-            <div className="bl-row">
-              <div className="dot dot-w"></div>
-              <div>
-                <h4>Tu cliente elige una ventana de 2 horas</h4>
-                <p>Al confirmar el pedido, el destinatario elige su franja horaria preferida para la entrega. Menos
-                  espera, más satisfacción con tu marca.</p>
+                <h4>Validación y evidencia de cada paquete</h4>
+                <p>Al retiro y entrega cada paquete se escanea y se le toma una foto para asegurar su integridad.</p>
               </div>
             </div>
             <div className="bl-row">
@@ -37,26 +27,11 @@ export default function EntregaSameDay() {
             <div className="bl-row">
               <div className="dot dot-w"></div>
               <div>
-                <h4>Garantía económica si no cumplimos</h4>
-                <p>Si fallamos en la entrega same day sin causa de fuerza mayor o dirección incorrecta, el costo del envío
-                  se acredita automáticamente a tu cuenta.</p>
-              </div>
-            </div>
-            <div className="bl-row">
-              <div className="dot dot-w"></div>
-              <div>
                 <h4>Cobertura en 30+ comunas del Gran Santiago</h4>
                 <p>Ñuñoa, Providencia, Las Condes, Maipú, Pudahuel, Vitacura, Santiago Centro y más. Consulta el mapa
                   completo al crear tu cuenta.</p>
               </div>
             </div>
-          </div>
-          <div className="tags">
-            <span className="tag-d">Same Day</span>
-            <span className="tag-d">Garantía SLA</span>
-            <span className="tag-d">Foto evidencia</span>
-            <span className="tag-d">Firma digital</span>
-            <span className="tag-d">30+ comunas</span>
           </div>
         </div>
         <div className="img-card dark reveal d1">

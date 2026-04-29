@@ -8,16 +8,9 @@ export default function Recoleccion() {
           <div className="ey ey-v">Recolección matutina</div>
           <h2 className="h2-l ls-tight">Retiramos todos<br />tus paquetes <span className="hi">gratis.</span></h2>
           <p className="body-l" style={{ marginTop: '14px' }}>Programa el retiro desde tu dashboard. A partir de
-            las 12 pm nuestros conductores pasan por tu bodega o local. Tú empacas la noche anterior, nosotros retiramos y entregamos el mismo día.</p>
+            las 12PM nuestros conductores pasan por tu bodega o local. Tú empacas la noche anterior, nosotros retiramos y entregamos el mismo día.</p>
           <div className="blist-l">
-            <div className="bl-row">
-              <div className="dot dot-v"></div>
-              <div>
-                <h4>Ventana de retiro 8 AM – 12 PM</h4>
-                <p>Coordina el horario exacto desde el panel. El conductor llega en la franja programada con confirmación
-                  de llegada en tiempo real.</p>
-              </div>
-            </div>
+
             <div className="bl-row">
               <div className="dot dot-v"></div>
               <div>
@@ -37,9 +30,8 @@ export default function Recoleccion() {
             <div className="bl-row">
               <div className="dot dot-v"></div>
               <div>
-                <h4>Creación de órdenes automática desde tu tienda</h4>
-                <p>Conecta Shopify, WooCommerce o Jumpseller. Cada pedido pagado la noche anterior crea automáticamente la
-                  orden de retiro para la mañana siguiente.</p>
+                <h4>Creación de órdenes automática desde Mercado Libre</h4>
+                <p>Nos conectamos a MercadoLibre para tener tus órdenes en tiempo real.</p>
               </div>
             </div>
             <div className="bl-row">
@@ -51,23 +43,16 @@ export default function Recoleccion() {
               </div>
             </div>
           </div>
-          <div className="tags">
-            <span className="tag-l">Shopify</span>
-            <span className="tag-l">WooCommerce</span>
-            <span className="tag-l">Jumpseller</span>
-            <span className="tag-l">API REST</span>
-            <span className="tag-l">Retiro 8 AM</span>
-          </div>
         </div>
         <div className="img-card reveal d2">
-          <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&q=80&auto=format&fit=crop"
+          <img src="https://images.unsplash.com/photo-1617909518640-623d149c6804?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Recolección matutina de paquetes" />
           <div className="ov-v"></div>
           <div className="fchip fchip-tl dk">
             <div className="fc-lbl">Retiro confirmado</div>
             <div className="fc-row">
               <div className="fdot fdot-g"></div>
-              <div className="fc-sm">Hoy 08:30 AM</div>
+              <div className="fc-sm">Hoy 14:34 PM</div>
             </div>
             <div className="fc-sub">24 bultos recogidos</div>
           </div>
