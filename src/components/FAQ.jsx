@@ -39,7 +39,7 @@ export default function FAQ() {
       <div className="faq-wrap">
         <div style={{ textAlign: 'center', marginBottom: '56px' }} className="reveal">
           <div className="ey ey-v" style={{ justifyContent: 'center' }}>Preguntas frecuentes</div>
-          <h2 className="h2-l ls-tight" style={{ textAlign: 'center' }}>Todo sobre<br /><span className="hi">el same day</span></h2>
+          <h2 className="h2-l ls-tight" style={{ textAlign: 'center' }}>Todo sobre<br /><span className="hi">Global Star</span></h2>
         </div>
         <div className="reveal">
           {faqData.map((item, index) => (

@@ -21,8 +21,6 @@ export default function CTA() {
     setLoading(true);
 
     try {
-      // IMPORTANTE: Resend requiere ejecutarse en el Backend para no exponer la API KEY en el cliente.
-      // Aquí hacemos una llamada a un endpoint de backend (ej: Next.js API, Node.js, etc.)
       const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {

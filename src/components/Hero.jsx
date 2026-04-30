@@ -1,8 +1,19 @@
 import React from 'react';
+import videoBg from '../assets/video-logistic.mp4';
 
 export default function Hero() {
   return (
     <section className="hero">
+      <video 
+        className="hero-video" 
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+      >
+        <source src={videoBg} type="video/mp4" />
+      </video>
+      <div className="hero-overlay"></div>
       <div className="hero-glow"></div>
       <div className="hero-grid-bg"></div>
       <div className="hero-fade"></div>
@@ -24,22 +35,6 @@ export default function Hero() {
           <span className="trust-item"><span className="trust-dot"></span>98% tasa de éxito</span>
           <span className="trust-sep"></span>
           <span className="trust-item"><span className="trust-dot"></span>30+ comunas activas</span>
-        </div>
-        <div className="hero-screen">
-          <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=1600&q=85&auto=format&fit=crop"
-            alt="Dashboard GlobalStar" />
-          <div className="screen-ov"></div>
-          <div className="hchip hchip-tl">
-            <div className="hc-lbl">Entregas hoy</div>
-            <div className="hc-val">247 <span className="pos">↑ 12%</span></div>
-          </div>
-          <div className="hchip hchip-br">
-            <div className="hc-row">
-              <div className="hc-dot"></div>
-              <div className="hc-sm">En ruta ahora</div>
-            </div>
-            <div className="hc-sub">38 paquetes · 6 conductores</div>
-          </div>
         </div>
       </div>
     </section>
