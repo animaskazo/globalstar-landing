@@ -51,7 +51,7 @@ export default function CTA() {
       <div className="cta-grid-bg"></div>
       <div className="cta-inner reveal">
         <h2 className="cta-h2 ls-tight">Impulsa tu tienda con<br /><span className="cg">entregas el mismo día.</span></h2>
-        <p className="cta-sub">Completa tus datos y un ejecutivo te contactará en minutos para dar de alta tu cuenta.</p>
+        <p className="cta-sub">Completa tus datos y un ejecutivo te contactará a la brevedad</p>
 
         {success ? (
           <div className="success-message" style={{ marginTop: '24px', padding: '20px', background: 'rgba(46, 204, 113, 0.1)', border: '1px solid rgba(46, 204, 113, 0.3)', borderRadius: '12px', color: '#2ecc71', fontSize: '18px' }}>

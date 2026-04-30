@@ -2294,15 +2294,14 @@
       padding: 72px 52px 40px;
     }
 
-    .ft {
+    .right-section {
       display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-wrap: wrap;
-      gap: 44px;
-      padding-bottom: 52px;
-      border-bottom: 1px solid var(--bd);
-      margin-bottom: 28px;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .right-section .fc2 {
+      margin: 0;
     }
 
     .fl-logo {
@@ -2356,6 +2355,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 12px;
+      margin-top: 32px;
     }
 
     .fb p {

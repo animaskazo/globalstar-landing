@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 const faqData = [
   {
     q: '¿Hasta qué hora tengo que tener los paquetes listos para el retiro?',
-    a: 'Idealmente la noche anterior. El conductor pasa entre las 8 y las 12 del mediodía. Si necesitas más tiempo, puedes coordinar el retiro hasta las 10 AM y aún así garantizamos la entrega ese mismo día dentro del Gran Santiago.'
+    a: 'Idealmente antes de las 12 del mediodía. El conductor pasa entre las 12 y las 3 de la tarde, así que tienes tiempo para preparar todo.'
   },
   {
-    q: '¿A qué hora se entregan los pedidos recogidos en la mañana?',
-    a: 'Los pedidos retirados entre las 8 y las 12 se entregan entre las 13 y las 20 horas del mismo día. Tu cliente elige su ventana preferida de 2 horas al momento de la compra o por el link que le enviamos al confirmar el retiro.'
+    q: '¿A qué hora se entregan los pedidos recogidos?',
+    a: 'Los pedidos retirados entre las 12 y las 3 PM se entregan entre las 16 y las 22 horas del mismo día. Tu cliente recibe notificaciones en cada paso, y tu puedes ver en tu dashboard el estado de cada pedido en tiempo real.'
   },
   {
     q: '¿Qué pasa si mi cliente no está en casa cuando llega el conductor?',
@@ -22,8 +22,8 @@ const faqData = [
     a: 'Cubrimos 30+ comunas del Gran Santiago con same day delivery garantizado. Algunas zonas periféricas tienen disponibilidad según el volumen del día. Al crear tu cuenta puedes ver el mapa de cobertura exacto con tiempos de entrega por zona.'
   },
   {
-    q: '¿Cómo me integro con Shopify para automatizar las órdenes?',
-    a: 'Instalas nuestra app desde el App Store de Shopify, ingresas tu API key y listo. Cada pedido pagado crea automáticamente la orden de retiro para el día siguiente. También funciona con WooCommerce, Jumpseller y cualquier plataforma con webhooks.'
+    q: '¿Cómo me integro con MercadoLibre para automatizar las órdenes?',
+    a: 'Instalas nuestra app desde tu dashboard a MercadoLibre, ingresas tu API key y listo. Cada pedido pagado crea automáticamente la orden de retiro para el día siguiente.'
   }
 ];
 
@@ -44,8 +44,8 @@ export default function FAQ() {
         <div className="reveal">
           {faqData.map((item, index) => (
             <div className="fi" key={index}>
-              <button 
-                className={`fq ${openIndex === index ? 'open' : ''}`} 
+              <button
+                className={`fq ${openIndex === index ? 'open' : ''}`}
                 onClick={() => toggleFAQ(index)}
               >
                 <span className="fqt">{item.q}</span>
