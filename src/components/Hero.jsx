@@ -4,11 +4,11 @@ import videoBg from '../assets/video-logistic.mp4';
 export default function Hero() {
   return (
     <section className="hero">
-      <video 
-        className="hero-video" 
-        autoPlay 
-        muted 
-        loop 
+      <video
+        className="hero-video"
+        autoPlay
+        muted
+        loop
         playsInline
       >
         <source src={videoBg} type="video/mp4" />
@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="hero-fade"></div>
       <div className="hero-inner">
         <h1 className="hero-h1 ls-tight">
-          Retiramos en todo Santiago.<br />
+          Retiramos tus envios<br />en todo Santiago.<br />
           <span className="grad">Entregamos el mismo día.</span>
         </h1>
         <p className="hero-sub">Tu cliente hace el pedido y lo recibe antes de que termine el día. Sin demoras, sin excusas.
@@ -28,7 +28,7 @@ export default function Hero() {
           <a href="#recoleccion" className="btn-primary">Cómo funciona →</a>
         </div>
         <div className="trust-row">
-          <span className="trust-item"><span className="trust-dot"></span>Retiro gratis</span>
+          <span className="trust-item"><span className="trust-dot"></span>Retiros gratis</span>
           <span className="trust-sep"></span>
           <span className="trust-item"><span className="trust-dot"></span>Entrega antes de las 22 PM</span>
           <span className="trust-sep"></span>

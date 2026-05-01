@@ -6,8 +6,7 @@ export default function Footer() {
       <div className="ft">
         <div className="left-section">
           <div className="fl-logo">
-            <div className="logo-gem">GS</div>
-            <span>GlobalStar</span>
+            <span>GlobalStar Courier</span>
           </div>
           <p className="fl-tag">Servicio de última milla para tiendas online en el Gran Santiago. Retiro AM, entrega PM, siempre.</p>
         </div>
