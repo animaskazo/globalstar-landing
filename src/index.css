@@ -300,7 +300,7 @@
     }
 
     .hero-h1 {
-      font-size: clamp(48px, 7vw, 68px);
+      font-size: clamp(48px, 7vw, 76px);
       font-weight: 700;
       line-height: 1.05;
       letter-spacing: -.04em;
