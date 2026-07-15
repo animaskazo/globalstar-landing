@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <nav>
-      <a href="#" className="nav-logo">
+      <Link to="/" className="nav-logo">
         GlobalStar Courier
-      </a>
+      </Link>
       <div className="nav-right">
         <a href="#" className="nav-ghost">Iniciar sesión</a>
-        <a href="#CTA" className="nav-cta">Contactar a ventas</a>
+        <Link to="/#CTA" className="nav-cta">Contactar a ventas</Link>
       </div>
     </nav>
   );

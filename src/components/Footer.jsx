@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -13,33 +14,31 @@ export default function Footer() {
         <div className="right-section">
           <div className="fc2">
             <h5>Soluciones</h5>
-            <a href="#recoleccion">Cómo funciona</a>
-            <a href="#notificaciones">Notificaciones</a>
-            <a href="#tracking">Seguimiento</a>
-            <a href="#pricing">Precios</a>
+            <Link to="/#recoleccion">Cómo funciona</Link>
+            <Link to="/#notificaciones">Notificaciones</Link>
+            <Link to="/#tracking">Seguimiento</Link>
+            <Link to="/#pricing">Precios</Link>
           </div>
           <div className="fc2">
             <h5>Compañía</h5>
-            <a href="#hero">Sobre nosotros</a>
-            <a href="#stats">Impacto</a>
-            <a href="#testimonials">Testimonios</a>
-            <a href="#faq">Preguntas</a>
+            <Link to="/#hero">Sobre nosotros</Link>
+            <Link to="/#stats">Impacto</Link>
+            <Link to="/#testimonials">Testimonios</Link>
+            <Link to="/#faq">Preguntas</Link>
           </div>
           <div className="fc2">
             <h5>Contacto</h5>
-            <a href="mailto:hola@globalstar.cl">hola@globalstar.cl</a>
-            <a href="tel:+56912345678">+56 9 1234 5678</a>
-            <a href="#">Instagram</a>
-            <a href="#">LinkedIn</a>
+            <a href="mailto:hola@globalstar.cl"> globalstarcourier2025@gmail.com</a>
+            <a href="tel:+56912345678">+56 9 6777 2374</a>
           </div>
         </div>
       </div>
       <div className="fb">
         <p>© 2026 GlobalStar Logística SpA. Todos los derechos reservados.</p>
         <div className="fb-links">
-          <a href="#">Privacidad</a>
+          <Link to="/politicas-de-privacidad">Privacidad</Link>
           <span className="dot">·</span>
-          <a href="#">Términos</a>
+          <Link to="/terminos-de-uso">Términos</Link>
           <span className="dot">·</span>
           <a href="#">Cookies</a>
         </div>
